@@ -51,6 +51,7 @@ https://github.com/winsw/winsw/blob/master/doc/installation.md
 https://github.com/winsw/winsw/blob/master/doc/xmlConfigFile.md
 
 https://stackoverflow.com/questions/44751960/install-jenkins-slave-as-a-windows-service-in-command-line
+https://stackoverflow.com/questions/24255439/how-to-setup-jenkins-slave-to-run-as-a-windows-service-using-command-line/45153740
 
 In case of PKIX error: 
 https://support.cloudbees.com/hc/en-us/articles/217078498-PKIX-path-building-failed-error-message?page=76
