@@ -54,3 +54,7 @@ https://stackoverflow.com/questions/44751960/install-jenkins-slave-as-a-windows-
 
 In case of PKIX error: 
 https://support.cloudbees.com/hc/en-us/articles/217078498-PKIX-path-building-failed-error-message?page=76
+
+Original WinSW
+https://repo.jenkins-ci.org/ui/native/releases/com/sun/winsw/winsw/2.9.0
+
