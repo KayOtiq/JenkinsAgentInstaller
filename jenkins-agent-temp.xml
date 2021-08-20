@@ -1,0 +1,19 @@
+<service>
+  <id>JenkinsAgent</id>
+  <name>Jenkins agent</name>
+  <description>This service runs an agent for Jenkins automation server.</description>
+  <executable>D:\Apps\java\bin\java.exe</executable>
+  <arguments>-Xrs -jar &quot;%BASE%\slave.jar&quot; -jnlpUrl https://jks.westus.cloudapp.azure.com/computer/win-bld01/slave-agent.jnlp -secret e54b3a6b958f1e400e9809808sdfs098sdf0s9bcd4938d2fca496fbbea3e889 -workDir=C:\Users\amaterasu48\jenkins</arguments>
+  <logmode>rotate</logmode>
+  <onfailure action="restart">
+    <download from="https://jks.westus.cloudapp.azure.com/jnlpJars/slave.jar" to="%BASE%\slave.jar">
+      <extensions>
+        <extension classname="winsw.Plugins.RunawayProcessKiller.RunawayProcessKillerExtension" enabled="true" id="killOnStartup">
+          <pidfile>%BASE%\jenkins_agent.pid</pidfile>
+          <stoptimeout>5000</stoptimeout>
+          <stopparentfirst>false</stopparentfirst>
+        </extension>
+      </extensions>
+    </download>
+  </onfailure>
+</service>
