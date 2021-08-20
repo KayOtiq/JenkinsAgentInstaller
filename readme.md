@@ -58,3 +58,6 @@ https://support.cloudbees.com/hc/en-us/articles/217078498-PKIX-path-building-fai
 Original WinSW
 https://repo.jenkins-ci.org/ui/native/releases/com/sun/winsw/winsw/2.9.0
 
+WinSW .xml examples
+https://github.com/winsw/winsw/tree/v3/samples
+
